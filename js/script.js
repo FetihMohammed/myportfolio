@@ -14,6 +14,7 @@ sidebar_navigation_bottom.addEventListener('click', function () {
 })
 
 
+
 let global_menu_buttom = document.getElementById('global_menu_button')
 let global_navigation = document.getElementById('global_menu_items')
 let global_close_buttom = document.getElementById('global_menu_close_button')
