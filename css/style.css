@@ -255,56 +255,56 @@ li .profile_title {
     border-radius: 0.3rem;
 }
 
-/* Resume Page */
-.resume_page .resume_container {
+/* project Page */
+.project_page .project_container {
     margin: 1.2rem 0;
     display: flex;
 }
 
-.left_resume {
+.left_project {
     width: 100%;
     padding: 0.6rem;
     border-right: 0.2rem solid var(--brand-color);
 }
 
-.right_resume {
+.right_project {
     width: 100%;
     padding: 0.6rem;
 }
 
-.resume_title {
+.project_title {
     font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 1rem;
 }
 
-.resume_title i {
+.project_title i {
     color: var(--brand-color);
 }
 
-.resume_box {
+.project_box {
     margin: 1.5rem 0;
 }
 
-.resume_box .resume_date {
+.project_box .project_date {
     font-size: 1rem;
     border: 0.1rem solid var(--brand-color);
     padding: 0.1rem 0.2rem;
     color: var(--brand-color);
 }
 
-.resume_box .resume_box_title {
+.project_box .project_box_title {
     margin-top: 0.5rem;
     font-size: 1.2rem;
     font-weight: 500;
 }
 
-.resume_box .resume_company {
+.project_box .project_company {
     font-size: 1rem;
 }
 
-.resume_box .resume_text {
+.project_box .project_text {
     font-size: 1rem;
     font-weight: 300;
 }
@@ -600,11 +600,11 @@ li .profile_title {
         margin-top: 10vh;
     }
 
-    .resume_page .resume_container {
+    .project_page .project_container {
         flex-direction: column;
     }
 
-    .left_resume {
+    .left_project {
         border-right: none;
         border-bottom: 0.2rem solid var(--brand-color);
     }
